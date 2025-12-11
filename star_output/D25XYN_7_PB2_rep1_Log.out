@@ -1,0 +1,48 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2024-01-25T16:12:02-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit a72e5fa27331108f524211d667949dc5ff4072e8 ; diff files: CHANGES.md README.md doc/STARmanual.pdf extras/doc-latex/STARmanual.tex extras/doc-latex/parametersDefault.tex extras/docker/Dockerfile source/VERSION 
+##### Command Line:
+STAR --genomeDir /rhome/kzhao028/shared/Joy/references/hg38/hg38_STAR_index --readFilesIn /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz --readFilesCommand zcat --outFileNamePrefix D25XYN_7_PB2_rep1_ --outSAMtype BAM SortedByCoordinate --runThreadN 16
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 D25XYN_7_PB2_rep1_
+###### All USER parameters from Command Line:
+genomeDir                     /rhome/kzhao028/shared/Joy/references/hg38/hg38_STAR_index     ~RE-DEFINED
+readFilesIn                   /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz   /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outFileNamePrefix             D25XYN_7_PB2_rep1_     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+runThreadN                    16     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        16
+genomeDir                         /rhome/kzhao028/shared/Joy/references/hg38/hg38_STAR_index
+readFilesIn                       /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz   /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 D25XYN_7_PB2_rep1_
+outSAMtype                        BAM   SortedByCoordinate   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 16   --genomeDir /rhome/kzhao028/shared/Joy/references/hg38/hg38_STAR_index   --readFilesIn /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz   /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix D25XYN_7_PB2_rep1_   --outSAMtype BAM   SortedByCoordinate   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r-- 1 kzhao028 xianglab 946718713 Dec  1 05:42 /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz
+
+   readsCommandsFile:
+exec > "D25XYN_7_PB2_rep1__STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep1.fastq.gz"
+
+
+   Input read files for mate 2 :
+!!!!! WARNING:  Could not ls /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz
+ls: cannot access '/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz': No such file or directory
+
+EXITING: because of fatal INPUT file error: could not open read file: /rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/D25XYN_7_PB2_rep2.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Dec 02 17:03:16 ...... FATAL ERROR, exiting
