@@ -1,0 +1,15 @@
+Status	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_10_PB1+2_rep1_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_11_PB1+2_rep2_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_12_PB1+2_rep3_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_13_All_rep1_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_14_All_rep2_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_15_All_rep3_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_1_mCh_rep1_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_2_mCh_rep2_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_3_mCh_rep3_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_4_PB1_rep1_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_5_PB1_rep2_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_6_PB1_rep3_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_7_PB2_rep1_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_8_PB2_rep2_Aligned.sortedByCoord.out.bam	/rhome/kzhao028/shared/seqdata/20251202-Neil_Flu_RNAseq/star_output/D25XYN_9_PB2_rep3_Aligned.sortedByCoord.out.bam
+Assigned	1089043	1077702	1158681	1080189	1097329	1089820	1216514	1104813	1017368	954333	1080483	970278	1008834	1091309	1231106
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	5439558	5590464	5650266	5558833	5278402	6306933	6506293	4927650	4545813	5062276	5548261	5374861	5529516	5186347	5930383
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	13742439	13569351	14283201	12715351	14518891	12597130	14993724	13713685	13394022	12964076	13121018	12201707	12913828	13932982	15772634
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	22371	21490	22757	23635	20363	27278	21976	19973	16877	16521	20309	18498	17922	18672	21442
